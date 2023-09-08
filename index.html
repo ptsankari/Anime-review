@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+  #maincontainer{
+border: solid;
+border-color:#3C99DC;
+width: fit-content;
+padding:30px;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+  }
+
+  #name{
+    margin-left: 20px;
+  }
+
+  #content{
+    height: 100px;
+  }
+
+  #maincontainer{
+    margin-top: 160px;
+  }
+
+  #sub{
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width:100px;
+    background-color: #66D3FA;
+    border: none;
+    color: white;
+      }
+</style>
+<body>
+ 
+<center>
+  <div id="maincontainer">
+    <form class="container" method="post" action="/">
+    <label for="name">Anime name:</label>
+
+  <input type="text" id="name" name="name"><br><br>
+
+  <label for="content">Your rating and reviews:</label>
+<br><br><textarea rows="4" id="content" name="content"></textarea><br><br>
+
+  <input type="submit" value="Submit" id="sub" style="font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif">
+
+</form> 
+</div>
+</center>
+
+</body>
+</html>
